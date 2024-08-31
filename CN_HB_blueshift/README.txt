@@ -8,4 +8,4 @@ Data_for_HBblueshifts.txt - data of AMOEBA-based fields on oTN CN group, and DFT
 oTN.xyz - oTN geometry file for Tinker
 oTN.key - oTN parameter file for Tinker
 
-See ... for further files that we used from previous work
+See "../oCNPhe_GROMACS_TINKER" for further files that we used from previous work
