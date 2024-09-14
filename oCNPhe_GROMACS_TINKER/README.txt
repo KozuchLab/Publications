@@ -27,6 +27,7 @@ GromacsMD_calc_EF.py - Python script to analyze electric fields from Gromacs MD 
 GromacsMD_hbond_extended_v5.py - Python script to analyze H-bonding from Gromacs MD simulations (NOTE: PBC_postproc.py was used in the end)
 submit_Gromacs_EFs.sh - Example script for submission to cluster
 submit_hbond_extended.sh - Example script for submission to cluster
+GROMACS folders.zip - folders with augmented force field file etc.
 
 combine_PDB_trajectories.py - script for combining PDB trajectory files of repetition runs
 PDB_postproc.py - script for analysis of H-bonding from PDB trajectory files; works for GROMACS and TINKER trajectories
