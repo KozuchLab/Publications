@@ -1,3 +1,11 @@
+# ReValAMOEBA - Python script to refine valence parameters in AMOEBA against
+#               quantum mechanical normal mode analysis. For help contact
+#               Jacek Kozuch (jacek.kozuch@tu-braunschweig.de). If you use
+#               this script or parts of it, please cite:
+#               ......will be added.....
+
+
+
 import json
 import numpy as np
 from subprocess import run
@@ -569,3 +577,4 @@ if __name__ == '__main__':
     delete_annoying_files(filenames['tink_dip_out'],number_of_NMs+7)
     delete_annoying_files(filenames['tink_nrg_out'],number_of_NMs+7)
     delete_annoying_files(filenames['tink_vib_xyz'],number_of_NMs+7)
+
