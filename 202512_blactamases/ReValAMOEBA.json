@@ -1,0 +1,27 @@
+{
+"main_input_xyz"     : "penam.xyz",
+"input_key"          : "penam.key",
+"input_suffices"     : [""],
+"efield_suffices"    : [""],  
+"add_restrains"      : [""],
+"ffheader"           : "amoeba09_header.prm",
+"redosteps"          : true,
+"adapt_structure"    : true,
+"fit_structure"      : true,
+"fit_carts_and_ints" : false,
+"fit_using_qmdispls" : false,
+"fit_torsion_nma"    : false,
+"fit_strbnd_nma"     : false,
+"int_displ_threshold": 1.0,
+"min_freq_qmdispl"   : 500,
+"min_freq_nma"       : 700,
+"importantmodes"     : [32],
+"qm_level"           : "mp2/6-311++g**",
+"nproc"              : "8",
+"mem"                : "8GB",
+"charge_spin"        : "0 1",
+"plot_range"         : [1500,1900],
+"scaling_factor"     : 0.9434
+}
+
+
