@@ -1,13 +1,30 @@
-# -*- coding: utf-8 -*-
+###################################################
+#                                                 #
+# DACFspec - Dipole AutoCorrelation Function      #
+#            Analysis to obtain IR Spectra        #
+#     2025 - J. Kozuch and S. Jamal               #
+# Please cite: 10.26434/chemrxiv-2025-9tlxj       #
+#                                                 #
+###################################################
+
 import numpy as np
 import matplotlib.pyplot as plt
 import math
 from scipy import signal
 
+'''
+Generate a file containing a list of time-dependent 
+dipole fluctation from MD simulations with at least 
+10 ps total length and maximum 1 fs time steps.
+Adapt line 73 and following to your format and select
+the INPUT below.
+'''
+
+
 ####################################################
 # INPUT:
 # Loading data from GROMACS or TINKER file
-input_file          = 'ProSH_md_ALL.dipole'
+input_file          = 'PenG.dipole'
 dt_in_fs            = 1
 square_window_in_fs = 10000
 # Windows for FFT: 'hann' 'blackmannharris' 'hamming' 'gauss' 'lorentz' 'square'
@@ -151,4 +168,5 @@ output = []
 for v,I in zip(x,y):
     output.append([v,I])
 np.savetxt(input_file.split('.')[0]+'.spec',output)
+
 
