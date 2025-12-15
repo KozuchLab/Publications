@@ -2,7 +2,7 @@
 #               quantum mechanical normal mode analysis. For help contact
 #               Jacek Kozuch (jacek.kozuch@tu-braunschweig.de). If you use
 #               this script or parts of it, please cite:
-#               ......will be added.....
+#               10.26434/chemrxiv-2025-9tlxj
 
 
 
@@ -577,4 +577,5 @@ if __name__ == '__main__':
     delete_annoying_files(filenames['tink_dip_out'],number_of_NMs+7)
     delete_annoying_files(filenames['tink_nrg_out'],number_of_NMs+7)
     delete_annoying_files(filenames['tink_vib_xyz'],number_of_NMs+7)
+
 
