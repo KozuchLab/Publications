@@ -1,3 +1,4 @@
 - DACFspec.py - Python script to calculate infrared spectra from fluctuating dipoles using Fourier transformation of the dipole autocorrelation function
 - ReValAMOEBA.json, auxfuncs.py, fittingfunctions.py, init.py, main.py, manual_nma.py, qmandmm.py - Python script to refine valence parameters in AMOEBA against quantum mechanical normal mode analysis. Required files: _.xyz and _.key files; _.key file requires formatting as examplified for penam. All options are specified in ReValAMOEBA.json. Please contact Jacek Kozuch if you want to use this script and need assistance
 - the zip file parameters_... contains the AMBER and AMOEBA parameters for PenG used in GROMACS and TINKER MD simulations
+- VRamoeba09.prm - "vibrationally refined" AMOEBA09 with new parameters for PNM and NMA
